@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Couchbase.Lite" Version="2.7.0" />
+    <PackageReference Include="Couchbase.Lite.Storage.SystemSQLite" Version="1.4.4" />
+    <PackageReference Include="CouchbaseNetClient" Version="2.7.16" />
+    <PackageReference Include="Linq2Couchbase" Version="1.4.2" />
+  </ItemGroup>
+
+</Project>
